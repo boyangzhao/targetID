@@ -1,0 +1,30 @@
+******************************************************************
+* TARGET ID
+* Authors: Boyang Zhao and Justin Pritchard
+******************************************************************
+
+
+******************************************************************
+Following sequence of files generates the dataset to be analyzed
+******************************************************************
+dataset_acq.R: read in datasets, call cBioPortal to get tumor mutation data
+dataset_preprocess.R: compile and move files to processed folder
+dataset_process.R: process datasets, call mutationassessor to get aa mutation information, cleanups
+dataset_filterRNAseq.R: add column to dMAF with RNA-seq expression data
+dataset_filterRNAseq2.R: add additional mRNA columns, deal with missing mRNA values in different ways
+
+- or -
+
+generate_synData.R: generates synthetic data
+
+******************************************************************
+Following sequence of files analyzes the dataset
+******************************************************************
+analyze_basic.R: compares HUMSAVAR and TCGA dataset
+calc_multiplier.R: calculates mutation rate multiplier for each tumor type
+analyze_scoring.R: applies scoring functions on the analyzed dataset, on a per-tumorType basis
+analyze_scoringAppend.R: appends scored results with significant MutSigCV hits not found in original overlay list
+
+analyze_scored.R: per-tumorType analysis: apply cutoffs and generates plots of the scored dataset
+analyze_scoredPanCancer.R: pan-cancer analysis
+analyze_scoredSurvival.R: survival (individual and pan-cancer) analysis

@@ -1,0 +1,2 @@
+"","prob","probSD","SNR","pval_prob","qval_prob","pval_MutSig","qval_MutSig","protLength","uniquePosNdMAF","uniquePosNdMAFtumor","uniquePosNExactMatch","uniquePosNExactMatchtumor","pval_FET","qval_FET","casesN"
+"MYF6",0.00240963855421687,0.00226921670143369,1.06188120010507,0.0570971451427429,0.0570971451427429,0.07249302,1,242,56,3,1,1,0.00194805194805195,0.00194805194805195,3

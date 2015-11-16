@@ -1,0 +1,2 @@
+homo_sapiens_proteome.fasta downloaded from UniProt
+HGNC.txt downloaded from HGNC

@@ -1,0 +1,4 @@
+"","prob","probSD","SNR","pval_prob","qval_prob","pval_MutSig","qval_MutSig","protLength","uniquePosNdMAF","uniquePosNdMAFtumor","uniquePosNExactMatch","uniquePosNExactMatchtumor","pval_FET","qval_FET","casesN"
+"MYH7",0.00241545893719807,0.00237672344818115,1.01629785284719,0.0268986550672466,0.0268986550672466,0.8916653,1,1935,198,2,22,1,0.0101010101010101,0.0101010101010101,2
+"CFHR5",NA,NA,NA,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA
+"OR2M3",NA,NA,NA,NA,NA,0,0,NA,NA,NA,NA,NA,NA,NA,NA
