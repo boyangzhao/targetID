@@ -174,7 +174,7 @@ aaChange <- aa3to1(aaChange) #convert 3-letter AA to 1-letter AA
 
 aaMutInfo <- aaMutSplit(aaChange)
 
-#SPID, FTID, dsSNP, diseaseName
+#SPID (Swiss-Prot ID), FTID (Swiss-Prot feature ID), dsSNP, diseaseName
 idx2 <- c(3,4,7,8)
 
 nameLabels = c("ID","geneSymbol", "aaPos", "refAA", "varAA", "aaChange", 

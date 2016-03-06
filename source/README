@@ -1,5 +1,5 @@
 ******************************************************************
-* TARGET ID
+* TARGETID
 * Authors: Boyang Zhao and Justin Pritchard
 ******************************************************************
 
@@ -12,6 +12,7 @@ dataset_preprocess.R: compile and move files to processed folder
 dataset_process.R: process datasets, call mutationassessor to get aa mutation information, cleanups
 dataset_filterRNAseq.R: add column to dMAF with RNA-seq expression data
 dataset_filterRNAseq2.R: add additional mRNA columns, deal with missing mRNA values in different ways
+dataset_exclusionFilters.R: filter variants by cross-referencing with pancancer12
 
 - or -
 
